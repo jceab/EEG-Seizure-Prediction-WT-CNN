@@ -1,7 +1,5 @@
 # EEG-Seizure-Prediction-WT-CNN
-The project is about applying CNNs to EEG data from CHB-MIT to predict seizure. It's the Master's Thesis for the Data Science Master degree at the Universitat Oberta de Catalunya (UOC). The objective of the project was to try to replicate the result obtained in the paper: Truong, Nhan Duy, et al. "Convolutional neural networks for seizure prediction using intracranial and scalp electroencephalogram." Neural Networks 105 (2018): 104-111.
-
-The different scripts included consist to create scalograms (time-frequency representations) of EEG data from the CHB-MIT Epilepsy Database by applying Wavelet Transformation techniques and then use them as input to a CNN in order to predict the precital (pre-seizure) phase of a patient.
+The project is part of my Master's Thesis for the Data Science Master degree at the Universitat Oberta de Catalunya (UOC). It discusses the possibility to learn different features from multi-channel scalp EEG signals that will allow distinguishing between interictal (normal) and preictal (pre-seizure) phases. To achieve this, a time-frequency analysis will be applied to EEG recordings from the CHB-MIT Scalp EEG database by using Wavelet Transformations (WT) which will later serve asinput for a Convolutional Neural Network (CNN).
 
 # Description of the scripts
 
