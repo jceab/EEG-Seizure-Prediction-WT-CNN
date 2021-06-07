@@ -3,7 +3,7 @@ The project is part of my Master's Thesis for the Data Science Master degree at 
 
 # Description of the scripts
 
-1. EDA.py: Exploratory Analysis of the EEG data.
+1. EDA.ipynb: Exploratory Analysis of the EEG data.
 2. Preprocessing.py: The EEG recordings are converted from the raw EDF file format first into a Pandas DataFrame for data preparation and cleaning, and then to a NumPy array to be able to apply Continuous Wavelet Transformations to the signals
 3. CWT.py: This script splits the Numpy Array in fixed-length segments and then applies CWT to the signal segments in order to obtain the corresponding Scalograms to them.
 4. CNN.py: CNN architecture used to predict the onset of an epileptic seizure.
